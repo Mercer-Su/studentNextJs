@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+//知识装饰器-实现一个GET请求
 //踩坑记录 MethodDecorator
 const Get = (url):MethodDecorator  => {
     //PropertyDescriptor
